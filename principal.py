@@ -1,6 +1,7 @@
 
 import streamlit
 streamlit.title ('Zenas catalog')
+import sonwflake.connector
 
 my_cnx = snowflake.connector.connect(**streamlit.secrets["snowflake"])
 my_cur = my_cnx.cursor()
