@@ -12,6 +12,7 @@ import snowflake.connector
   streamlit.text(my_data_row)
   
 """
+
 import streamlit
 import snowflake.connector
 import pandas
